@@ -18,3 +18,13 @@ downloadButtons.forEach((button) => {
 
   button.addEventListener("click", () => downloadFunction(a));
 });
+
+downloadButtons.forEach((button) => {
+  button.addEventListener("mouseenter", (e) => {
+    button.style.filter="invert(100%)";
+    button.style.transition="all .300s";
+  });
+  button.addEventListener("mouseout", (e) => {
+    button.style.filter="invert(0%)";
+  });
+});

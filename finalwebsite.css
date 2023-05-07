@@ -344,7 +344,7 @@ p {
   cursor: pointer;
 }
 
-.download-button:hover {
+/* .download-button:hover {
   font-family: var(--title-sm);
   font-size: var(--title-sm-size);
   font-weight: 700;
@@ -361,4 +361,4 @@ p {
   outline: none;
   cursor: pointer;
   border: none;
-}
+} */
